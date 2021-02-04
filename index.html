@@ -11,6 +11,10 @@
         tr:nth-child(even) {
             background-color: #dddddd;
 }
+        form {
+            border: 3px solid #dddddd;
+        }
+
     </style>
     <title>Seltzer List</title>
 </head>
@@ -55,6 +59,57 @@
      </tr>
      
  </table>
+
+<form>
+
+    <p>Add your rating</p>
+    <label for="drink">Drink Brand:</label><br>
+    <input type="text" id="drink" name="drink" placeholder="Polar is the best"><br>
+
+    <br>
+
+    <input type="radio" id="grapefruit" name="flavor" value="grapefruit">
+    <label for="Flavor">Grapefruit</label>
+   
+    <input type="radio" id="lemon" name="flavor" value="lemon">
+    <label for="Flavor">Lemon</label>
+
+    <input type="radio" id="lime" name="flavor" value="lime">
+    <label for="Flavor">Lime</label>
+
+    <input type="radio" id="strawberry" name="flavor" value="straberry">
+    <label for="Flavor">Strawberry</label>
+
+    <p>Checkbox example</p>
+    <input type="checkbox" id="fizz" name="fizz" value="Option1"
+    <label for="fizz">Option1</label><br>
+    <input type="checkbox" id="fizz" name="fizz" value="Option2"
+    <label for="fizz">Option2</label><br>
+    <input type="checkbox" id="fizz" name="fizz" value="Option3"
+    <label for="fizz">Option3</label>
+
+    <br>
+    <br>
+    <p>Give a rating out of 10</p>
+    <select id="rating" name="rating">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+     </select>
+<br>
+<p><strong>All finished?</strong></p>
+<p>Thank you!</p>
+
+<input type="submit" value="Submit">
+
+</form>
 
 </body>
 
